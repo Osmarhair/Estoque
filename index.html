@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle Produção</h1>
+
+    <nav>
+        <a href="pedidos.html">Pedidos</a>
+        <a href="vendas.html">Vendas</a>
+        <a href="resumo.html">Resumo</a>
+        <a href="balanco.html">Balanço</a>
+    </nav>
+
+    <asaid>
+        <div>
+            <ul>
+                <li>Setor</li>
+                <select name="setor" id="setor">
+                    <option value="opcao">Escolha setor</option>
+                    <option value="friamb">Fiambreria</option>
+                    <option value="laticinios">Laticinios</option>
+                    <option value="padaria">Padaria</option>
+                    <option value="caixa">Caixa</option>
+                </select>
+                <li>Produto</li>
+                <select name="prod" id="prod">
+                    <option value="prod">Selecione Produto</option>
+                </select>
+                <li>Divergência</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Estoque</h3>
+            <p id="quantidade"></p>
+            <button id="adionar">adicionar</button>
+            <button id="remover">Remover</button>
+        </div>
+    </asaid>
+
+    <main>
+        <h2>Para qual loja:</h2>
+        <div>
+            <a href="#">Loja 1</a>
+            <a href="#">Loja 2</a>
+            <a href="#">Loja 3</a>
+            <a href="#">Loja 4</a>
+        </div>
+    </main>
+
+    
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="estoque.js"></script>
+</body>
+</html>
